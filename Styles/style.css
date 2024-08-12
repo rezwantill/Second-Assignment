@@ -55,11 +55,21 @@
 .header_margin{
     margin: 0px 198px;
     color: #FFFFFF; 
+    background-color: #000000;
 }
 .imageee{
-    margin: 135px 250px 100px 300px;
+    margin: 135px 250px 100px 200px;
 }
-.exercise{
+.habits{
+    text-align: center;
+    align-items: center;
+}
+.griddd{
     display: grid;
-    grid-template-columns: (4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    justify-content: center;
+    margin: 0px auto;
+    width: 100%;
+    padding: 59px auto;
 }
