@@ -1,0 +1,65 @@
+.first-bar{
+   
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.item-task{
+    margin-right: 67px;
+    font-weight: 67px;
+    font-size: .8rem;
+}
+.display-flex{
+    display: flex;
+
+}
+.fst-img{
+
+}
+.shape{
+
+}
+.free{
+
+}
+.item{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    border: 1px solid #323232;
+    border-radius: 39px;    
+}
+.wth{
+    width: 40%;
+    margin: 199px 167px 76px 0px;
+}
+.fitness{
+    font-size: 1.5rem;
+    color: rgba(230, 83, 60, 1);
+}
+.bgcolor1{
+    background-color: rgba(230, 83, 60, 1);
+    padding: 8px 20px;
+    border-radius: 46px;
+}
+.bgcolor2{
+    padding: 8px 20px;
+    border-radius: 42px;
+    border: 1px solid #FFFFFF;
+}
+.fontttt{
+    font-size: 3.25rem;
+    height: 120%;
+}
+.header_margin{
+    margin: 0px 198px;
+    color: #FFFFFF; 
+}
+.imageee{
+    margin: 135px 250px 100px 300px;
+}
+.exercise{
+    display: grid;
+    grid-template-columns: (4, 1fr);
+}
