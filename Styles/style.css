@@ -45,6 +45,10 @@ main>section {
     width: 40%;
     margin: 199px 167px 76px 0px;
 }
+.with{
+    width: 100%;
+    margin: 199px 167px 76px 0px;
+}
 
 .fitness {
     font-size: 1.5rem;
