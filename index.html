@@ -6,9 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitness management</title>
     <link rel="stylesheet" href="Styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap" rel="stylesheet">
 </head>
 
-<body style="background-color: #000000">
+<body style="background-color: #000000" class="inter-font">
     <header class="header_margin">
         <nav class="first-bar">
             <h3 class="fitness">Fitness</h3>
@@ -22,7 +30,8 @@
         <section class="display-flex with">
             <div class="wth">
                 <div class="shape">
-                    <h1 class="fontttt">Get body in <br>shape & stay <br> healthy</h1>
+                    <h1 class="fontttt">Get body in <br> <span class="grey-qo-regular">shape</span> & stay <br> healthy
+                    </h1>
                 </div>
                 <p class="light-gray">Try to exercise regularly, at least 150 minutes of cardio per week and 2-3
                     strength training days per
@@ -38,15 +47,24 @@
             </div>
             <div>
                 <img src="images/Images2.png" alt="A handsome man">
-                <section>
-                    <span class="dot"></span>
-                    <button class="experience-badge"><span style="color: white; font-size: 1.5rem; font-weight: 600;">350+</span>
-                        <br><span class="light-gray">video tutorial</span>
-                </button></section>
-                <button class="clint-satis">
-                    <span style="color: white; font-size: 2.5rem; font-weight: 600;">500+</span>
-                    <br><span class="light-gray">Free workout Videos</span>
-                </button>
+                <section class="bot">
+
+                    <button class="experience-badge">
+                        <span class="dot"></span>
+                        <div><span style="color: white; font-size: 1.5rem; font-weight: 600;">350+</span>
+                            <br><span class="light-gray">video tutorial</span>
+                        </div>
+                    </button>
+                </section>
+                <section class="moga">
+
+                    <button class="clint-satis">
+
+                        <span style="color: white; font-size: 2.5rem; font-weight: 600;">500+</span>
+                        <br><span class="light-gray">Free workout Videos</span>
+
+                    </button>
+                </section>
             </div>
         </section>
     </header>
