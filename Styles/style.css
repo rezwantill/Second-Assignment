@@ -49,6 +49,7 @@ main>section {
 .fitness {
     font-size: 1.5rem;
     color: rgba(230, 83, 60, 1);
+    font-style: italic;
 }
 
 .bgcolor1 {
@@ -142,4 +143,30 @@ main>section {
     position: absolute;
   bottom: 2px;
   left: 50px;
+}
+.bold{
+    font-weight: 800 ;
+    font-style: italic;
+    height: 120%;
+    font-size: 3rem;
+    color: rgb(230, 83, 60);
+}
+.last-banner{
+    width: 46%; 
+    padding-right: 30px;
+
+}
+.last-banners{
+    width: 26%;
+}
+footer{
+    display: flex;
+    justify-content: center;
+   margin: 100px auto;
+   text-align:left;
+   align-items: center;
+   margin-bottom: 100px;
+}
+.light-gray{
+    color: #8C8C8C;
 }
