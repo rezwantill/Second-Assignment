@@ -31,6 +31,13 @@ main>section {
 .team {
     margin-top: 100px;
 }
+.dot{
+    height: 40px;
+  width: 40px;
+  background-color: rgba(230, 83, 60, 1);
+  border-radius: 50%;
+  display: inline-block;
+}
 
 .item {
     text-decoration: none;
@@ -43,11 +50,23 @@ main>section {
 
 .wth {
     width: 40%;
-    margin: 199px 167px 76px 0px;
+    margin: 100px 167px 76px 0px;
 }
 .with{
     width: 100%;
-    margin: 199px 167px 76px 0px;
+    margin: 100px 167px 100px 0px;
+    justify-content: space-around;
+}
+.experience-badge{
+padding: 30px 63px 45px 75px;
+background-color: #232323;
+border-radius: 12px;
+
+}
+.clint-satis{
+    background-color: #393939;
+    padding: 17px 53px 35px 30px;
+    border-radius: 12px;
 }
 
 .fitness {
