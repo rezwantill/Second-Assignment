@@ -1,46 +1,57 @@
-main{
-    max-width: 1200px;
+main {
+    max-width: 1440px;
     margin: 0px auto;
 }
-.first-bar{
-   
+
+.first-bar {
+
     align-items: center;
     justify-content: space-between;
     display: flex;
 }
-.item-task{
+
+.item-task {
     margin-right: 67px;
     font-weight: 67px;
     font-size: .8rem;
 }
-.display-flex{
+
+.display-flex {
     display: flex;
 
 }
-main> section{
-    margin-top: 100px;
+.color{
+    color: #8C8C8C;
 }
-.team{
+
+main>section {
     margin-top: 100px;
 }
 
-.item{
+.team {
+    margin-top: 100px;
+}
+
+.item {
     text-decoration: none;
     list-style-type: none;
     display: flex;
     align-items: center;
     border: 1px solid #323232;
-    border-radius: 39px;    
+    border-radius: 39px;
 }
-.wth{
+
+.wth {
     width: 40%;
     margin: 199px 167px 76px 0px;
 }
-.fitness{
+
+.fitness {
     font-size: 1.5rem;
     color: rgba(230, 83, 60, 1);
 }
-.bgcolor1{
+
+.bgcolor1 {
     background-color: rgba(230, 83, 60, 1);
     padding: 8px 20px;
     border-radius: 46px;
@@ -48,30 +59,36 @@ main> section{
     color: #FFFFFF;
     font-size: .9rem;
 }
-.bgcolor2{
+
+.bgcolor2 {
     padding: 8px 20px;
     border-radius: 42px;
     border: 1px solid #FFFFFF;
     background-color: black;
     color: #FFFFFF;
 }
-.fontttt{
+
+.fontttt {
     font-size: 3.25rem;
     height: 120%;
 }
-.header_margin{
+
+.header_margin {
     margin: 0px 198px;
-    color: #FFFFFF; 
+    color: #FFFFFF;
     background-color: #000000;
 }
-.imageee{
+
+.imageee {
     margin: 135px 250px 100px 200px;
 }
-.habits{
+
+.habits {
     text-align: center;
     align-items: center;
 }
-.griddd{
+
+.griddd {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 40px;
@@ -79,32 +96,50 @@ main> section{
     margin: 0px auto;
     width: 100%;
     margin: 58px auto;
-} 
-.exercise{
-    border-top-left-radius: 50% 50%; border-top-right-radius: 50% 50%; border-bottom-right-radius: 50% 50%; border-bottom-left-radius: 50% 50%; 
 }
-.extra{
+
+.exercise {
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+}
+
+.extra {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin-top: 100px;
     margin-right: 50px;
 }
-.member{
+.team{
+    align-items: center;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 150px;
+}
+
+.member {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+}
+
+.trainer {
+    height: 272px;
+    width: 326px;
+    justify-content: center;
+
+}
+
+.container {
     position: relative;
     text-align: center;
     color: white;
 }
-.trainer{
-    height: 272px;
-    width: 210px;
-    justify-content: center;
-}
+
 .bottom-left{
     position: absolute;
-    bottom: 8px;
-    left: 16px;
+  bottom: 2px;
+  left: 50px;
 }
