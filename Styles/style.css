@@ -234,6 +234,7 @@ table, td, th{
 .color3{
     color: rgba(56, 56, 56, 0.1);
     gap: 30px;
+    border-radius: 8px;
 }
 .calc{
     color: #FFFFFF;
@@ -255,4 +256,28 @@ table, td, th{
     color: #757575;
     gap: 30px;
     margin-bottom: 20px;
+}
+
+@media screen and (max-width:576px) {
+
+    .with, .extra, .Calculate, .header_margin{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .header_margin{
+        margin-left: 20px;
+        margin-right: 0px;
+        padding: 10px 10px;
+    }
+    .shape, .fontttt{
+        width: 100%;
+        margin-right: 20px;
+        justify-items: center;
+    }
+    .habits{
+        margin-top: 400px;
+    }
+    .griddd, .member{
+        grid-template-columns: 1fr;
+    }
 }
