@@ -2,13 +2,15 @@
     font-family: "Grey Qo", cursive;
     font-weight: 800;
     font-style: normal;
-  }
-  .inter-font {
+}
+
+.inter-font {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-  }
+}
+
 main {
     max-width: 1440px;
     margin: 0px auto;
@@ -31,7 +33,8 @@ main {
     display: flex;
 
 }
-.color{
+
+.color {
     color: #8C8C8C;
 }
 
@@ -42,12 +45,13 @@ main>section {
 .team {
     margin-top: 100px;
 }
-.dot{
+
+.dot {
     height: 40px;
-  width: 40px;
-  background-color: rgba(230, 83, 60, 1);
-  border-radius: 50%;
-  display: inline-block;
+    width: 40px;
+    background-color: rgba(230, 83, 60, 1);
+    border-radius: 50%;
+    display: inline-block;
 }
 
 .item {
@@ -58,37 +62,43 @@ main>section {
     border: 1px solid #323232;
     border-radius: 39px;
 }
-.bot{
+
+.bot {
     margin-left: -100px;
     margin-top: -170px;
 
 }
+
 .wth {
     width: 40%;
     margin: 100px 167px 76px 0px;
 }
-.with{
+
+.with {
     width: 100%;
     margin: 100px 167px 100px 0px;
     justify-content: space-around;
 }
-.experience-badge{
-padding: 30px 50px 45px 30px;
-background-color: #232323;
-border-radius: 12px;
-display: flex;
-gap: 10px;
+
+.experience-badge {
+    padding: 30px 50px 45px 30px;
+    background-color: #232323;
+    border-radius: 12px;
+    display: flex;
+    gap: 10px;
 
 }
-.moga{
+
+.moga {
     margin-left: 250px;
     margin-top: -400px;
 }
-.clint-satis{
+
+.clint-satis {
     background-color: #393939;
     padding: 17px 30px 35px 30px;
     border-radius: 12px;
-  
+
 }
 
 .fitness {
@@ -160,7 +170,8 @@ gap: 10px;
     background-color: #222222;
     padding-left: 30px;
 }
-.team{
+
+.team {
     align-items: center;
     text-align: center;
     margin-bottom: 80px;
@@ -187,97 +198,210 @@ gap: 10px;
     position: relative;
     text-align: center;
     color: white;
- 
+
 }
 
-.bottom-left{
+.bottom-left {
     position: absolute;
-  bottom: 2px;
-  left: 50px;
+    bottom: 2px;
+    left: 50px;
 }
-.bold{
-    font-weight: 800 ;
+
+.bold {
+    font-weight: 800;
     font-style: italic;
     height: 120%;
     font-size: 3rem;
     color: rgb(230, 83, 60);
 }
-.last-banner{
-    width: 46%; 
+
+.last-banner {
+    width: 46%;
     padding-right: 30px;
 
 }
-.last-banners{
+
+.last-banners {
     width: 26%;
 }
-footer{
+
+footer {
     display: flex;
     justify-content: center;
-   margin: 100px auto;
-   text-align:left;
-   align-items: center;
-   margin-bottom: 100px;
+    margin: 100px auto;
+    text-align: left;
+    align-items: center;
+    margin-bottom: 100px;
 }
-.light-gray{
+
+.light-gray {
     color: #8C8C8C;
 }
-table, td, th{
+
+table,
+td,
+th {
     border: 1px solid #383838;
     border-collapse: collapse;
     padding: 15px 41px;
     margin-top: 55px;
 }
-.bmi-head{
+
+.bmi-head {
     font-size: 28px;
     font-weight: 600;
 }
-.color3{
+
+.color3 {
     color: rgba(56, 56, 56, 0.1);
     gap: 30px;
     border-radius: 8px;
 }
-.calc{
+
+.calc {
     color: #FFFFFF;
     background-color: rgba(230, 83, 60, 1);
     padding: 16px 70px;
     border-radius: 42px;
     margin-top: 45px;
 }
-.Calculate{
+
+.Calculate {
     gap: 230px;
     background-color: #232323;
     padding-left: 20px;
     padding-bottom: 10px;
 
 }
-.box{
+
+.box {
     padding: 13px 232px 13px 20px;
-    background-color: #383838; 
+    background-color: #383838;
     color: #757575;
     gap: 30px;
     margin-bottom: 20px;
 }
 
+
+
 @media screen and (max-width:576px) {
 
-    .with, .extra, .Calculate, .header_margin{
+    .with,
+    .extra,
+    .Calculate,
+    .header_margin {
         flex-direction: column;
         gap: 20px;
     }
-    .header_margin{
+   
+
+    .header_margin {
         margin-left: 20px;
         margin-right: 0px;
         padding: 10px 10px;
     }
-    .shape, .fontttt{
+
+    .shape,
+    .fontttt {
         width: 100%;
         margin-right: 20px;
         justify-items: center;
     }
-    .habits{
+
+    .habits {
         margin-top: 400px;
     }
-    .griddd, .member{
+
+    .griddd,
+    .member {
         grid-template-columns: 1fr;
     }
+
+    .hamburger {
+        cursor: pointer;
+        display: block;
+    }
+
+    .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        background-color: white;
+    }
+
+    .Calculate {
+        margin-left: -15px;
+        width: 100%;
+    }
+
+    .box {
+        max-width: 100%;
+        margin-left: -10px;
+    }
+
+    .fontttt {
+        width: fit-content;
+    }
+
+    .light-gray {
+        width: fit-content;
+
+    }
+    .item{
+        display: none;
+    }
+    .handsome {
+        width: 80%;
+        margin-left: 40px;
+        margin-right: 20px;
+    }
+
+    .last-banner {
+        width: 100%;
+        margin-left: 50px;
+    }
+
+    .last-banners {
+        margin-left: -200px;
+    }
+
+    .under {
+        min-width: 200%;
+    }
+
+    .next-img {
+        width: 430px;
+
+    }
+
+    .extra {
+        width: 100%;
+    }
+
+    .bmie {
+        width: 100%;
+    }
+
+    .box1 {
+        padding: 14px 170px 14px 20px;
+    }
+
+    .moga {
+        margin-left: 220px;
+    }
+
+    .bot {
+        margin-left: -50px;
+    }
+
+    .fitness {
+        padding-top: 40px;
+    }
+    
+    
+    
+   
 }
